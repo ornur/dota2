@@ -1,20 +1,28 @@
-p, h1, h2, h3, ul {
+p,
+h1,
+h2,
+h3,
+ul {
     margin: 0 0 0 0;
 }
+
 * {
     font-family: 'Radiance';
 }
-body{
+
+body {
     background-image: url('bg-image.jpg');
     background-repeat: repeat-y;
     background-position: center;
     overflow-x: hidden;
     margin: 0%;
 }
-hr{
+
+hr {
     border: 0;
     height: 35px;
 }
+
 #navBarBGRepeat {
     width: 100%;
     height: 65px;
@@ -23,6 +31,7 @@ hr{
     background-image: url(header_bg.png);
     font-family: 'Radiance';
 }
+
 #navBar {
     width: 950px;
     height: 64px;
@@ -31,28 +40,37 @@ hr{
     text-align: left;
     font-family: 'Radiance';
 }
-a, a:active, a:visited, a:focus {
+
+a,
+a:active,
+a:visited,
+a:focus {
     color: #ffffff;
     text-decoration: none;
     font-size: 17px;
 }
+
 .navItemDotaLogo {
-    width: 180px;
+    width: 52px;
 }
+
 .navItem {
     height: 70px;
     margin-top: 21px;
     display: inline-block;
 }
+
 #HeaderSeperator {
     color: #4f4c49;
     display: inline-block;
     margin-right: 15px;
     margin-left: 15px;
 }
+
 .DotaFont {
-    font-family: "Radiance",Verdana;
+    font-family: "Radiance", Verdana;
 }
+
 #navLoginAndLanguage {
     position: absolute;
     width: 750px;
@@ -66,6 +84,7 @@ a, a:active, a:visited, a:focus {
     line-height: 18px;
     font-family: 'Radiance';
 }
+
 #PlayForFreeButton {
     display: block;
     background-color: #111C26;
@@ -82,15 +101,17 @@ a, a:active, a:visited, a:focus {
     padding-top: 8px;
     letter-spacing: 3px;
     transition: .3s;
-    box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 3px 12px 0px rgba(0, 0, 0, 0.75);
     font-family: 'Radiance';
 }
+
 #PlayForFreeButton:hover {
     background-color: #0F2C3D;
     color: #fff;
     border: 1px solid #fff;
-    box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 3px 12px 0px rgba(0, 0, 0, 0.75);
 }
+
 #navBar a.navBarItem:hover {
     color: #ffffff;
 }
@@ -101,20 +122,26 @@ a, a:active, a:visited, a:focus {
     font-size: 14px;
     color: #cecece;
 }
+
 #navBar .navBarItem {
     position: relative;
     display: inline-block;
     line-height: 18px;
 }
+
 .navItem .DotaLogo:hover {
     opacity: 1;
 }
+
 .navItem .DotaLogo {
     position: absolute;
-    margin-top: -21px;
+    margin-top: -27px;
     top: 0;
     opacity: .8;
+    height: 50px;
+    width: 50px;
 }
+
 .menuSubItemList {
     min-width: 200px;
     padding: 3px 2px;
@@ -123,8 +150,9 @@ a, a:active, a:visited, a:focus {
     text-align: left;
     z-index: 999999;
     position: absolute;
-    box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
+
 .menuSubItemList a {
     display: block;
     padding: 3px 20px;
@@ -134,6 +162,7 @@ a, a:active, a:visited, a:focus {
     color: #ffffff;
     white-space: nowrap;
 }
+
 .menuSubItemList a:hover {
     background-color: #444;
 }
@@ -154,6 +183,7 @@ a, a:active, a:visited, a:focus {
     padding-right: 12%;
     background-color: black;
 }
+
 .PatchSubtitle {
     font-size: 36px;
     text-transform: uppercase;
@@ -161,6 +191,7 @@ a, a:active, a:visited, a:focus {
     letter-spacing: 4px;
     font-weight: normal;
 }
+
 .PatchTitle {
     font-size: 72px;
     color: #ED3B1C;
@@ -168,6 +199,7 @@ a, a:active, a:visited, a:focus {
     font-weight: bold;
     margin-top: -12px;
 }
+
 .MainContents {
     width: 100%;
     max-width: 900px;
@@ -177,7 +209,8 @@ a, a:active, a:visited, a:focus {
     flex-direction: column;
     margin-left: 19%;
 }
-.patchnotepage{
+
+.patchnotepage {
     width: 100%;
     max-width: 900px;
     padding-top: 32px;
@@ -185,11 +218,12 @@ a, a:active, a:visited, a:focus {
     display: flex;
     flex-direction: column;
 }
-.PatchNotesHeaderLabel{
+
+.PatchNotesHeaderLabel {
     background: linear-gradient(to right, #833312, rgba(131, 51, 18, 0));
     border-left: 2px solid #ff5005;
     font-weight: 600;
-    font-family: "Reaver",serif;
+    font-family: "Reaver", serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #fff;
@@ -197,7 +231,8 @@ a, a:active, a:visited, a:focus {
     box-shadow: 0px 0px 30px #000;
     padding: 12px 20px;
 }
-.PatchNotesList{
+
+.PatchNotesList {
     width: 100%;
     border-left: 2px solid rgb(11 1 1 / 6%);
     margin-bottom: 30px;
@@ -208,6 +243,7 @@ a, a:active, a:visited, a:focus {
     padding: 20px 0px;
     flex-direction: column;
 }
+
 .PatchNoteItem {
     width: 91%;
     min-height: 0;
@@ -217,13 +253,15 @@ a, a:active, a:visited, a:focus {
     padding-bottom: 0px;
     margin-bottom: 20px;
 }
-.ItemHeader{
+
+.ItemHeader {
     width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
 }
-.ItemImage{
+
+.ItemImage {
     width: 72px;
     height: 52px;
     background-size: cover;
@@ -233,41 +271,46 @@ a, a:active, a:visited, a:focus {
     margin-left: 22px;
     margin-bottom: 10px;
 }
-.RightSection{
+
+.RightSection {
     flex-grow: 1;
     min-height: 0;
     display: flex;
     flex-direction: column;
 }
-.ItemName{
+
+.ItemName {
     font-weight: 600;
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-family: "Reaver",serif;
+    font-family: "Reaver", serif;
 }
-.NoteElement{
+
+.NoteElement {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
 }
-.Note{
-    font-size: clamp(17px,1.5vw,19px);
-    color: rgba(187,187,187,.9333333333);
+
+.Note {
+    font-size: clamp(17px, 1.5vw, 19px);
+    color: rgba(187, 187, 187, .9333333333);
     line-height: 1.3;
     font-weight: 200;
 }
-footer{
+
+footer {
     text-align: center;
     width: 92%;
     z-index: 5;
     background-color: #000;
     padding: 4%;
 }
-.Logos{
+
+.Logos {
     margin: 0 auto;
     max-width: 360px;
-    display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
