@@ -181,20 +181,20 @@ a:focus {
     width: auto;
     padding-left: 19%;
     padding-right: 12%;
-    background-color: black;
+    background-color: rgb(196 189 189 / 87%);
 }
 
 .PatchSubtitle {
     font-size: 36px;
     text-transform: uppercase;
-    color: #ED3B1C;
+    color: #000000;
     letter-spacing: 4px;
     font-weight: normal;
 }
 
 .PatchTitle {
     font-size: 72px;
-    color: #ED3B1C;
+    color: #000000;
     letter-spacing: 8px;
     font-weight: bold;
     margin-top: -12px;
@@ -220,7 +220,7 @@ a:focus {
 }
 
 .PatchNotesHeaderLabel {
-    background: linear-gradient(to right, #833312, rgba(131, 51, 18, 0));
+    background: linear-gradient(to right, #22b11db9, rgba(131, 51, 18, 0));
     border-left: 2px solid #ff5005;
     font-weight: 600;
     font-family: "Reaver", serif;
@@ -321,12 +321,18 @@ footer {
     color:#FFF;
 }
 .content-table {
-   margin: 6px;
-   font-size: 0.9em;
-   min-width: 100%;
-   border-radius: 5px 5px 0 0;
-   overflow: hidden;
-   box-shadow: 0 0 20px rgba(222, 222, 222, 0.15);
+   
+margin: 6px;
+   
+font-size: 0.9em;
+   
+min-width: 100%;
+   
+border-radius: 5px 5px 0 0;
+   
+overflow: hidden;
+   
+box-shadow: 0 0 20px rgba(222, 222, 222, 0.15);
 }
 .content-table thead tr {
     background-color: rgba(101, 0, 0, 0.763);
