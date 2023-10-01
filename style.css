@@ -11,7 +11,7 @@ ul {
 }
 
 body {
-    background-image: url('bg-image.jpg');
+    background-image: url('assets/bg-image.jpg');
     background-repeat: repeat-y;
     background-position: center;
     overflow-x: hidden;
@@ -28,7 +28,7 @@ hr {
     height: 65px;
     position: relative;
     z-index: 10001;
-    background-image: url(header_bg.png);
+    background-image: url(assets/header_bg.png);
     font-family: 'Radiance';
 }
 
